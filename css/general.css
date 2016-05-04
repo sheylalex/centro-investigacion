@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Comienza el menu */
 	/*.menu{padding-top: 50px;}*/
 	.menu li{
@@ -16,3 +17,9 @@
 		font-weight: bold;
 		border: 3px solid #5E8039;}
 /*termina el menu*/
+=======
+/* Inserta tu codigo que es común para todas las páginas aqui */
+*{outline:1px solid rgba(255,0,0,0.3);}
+body{width: 98%; margin: auto; text-align: center;}
+.row {margin: auto;}
+>>>>>>> 499fcc473160e2d142149025407780808217a5dd
