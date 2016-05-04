@@ -1,0 +1,4 @@
+/* Inserta tu codigo que es común para todas las páginas aqui */
+*{outline:1px solid rgba(255,0,0,0.3);}
+body{width: 98%; margin: auto; text-align: center;}
+.row {margin: auto;}
