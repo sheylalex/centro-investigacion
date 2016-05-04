@@ -1,0 +1,75 @@
+/*seccion investigadores*/
+.h-1{
+	font-size: 50px;
+	padding-top: 3%;
+}
+.investigador{
+	display: inline-block;
+	padding-top: 5%;
+	text-align: center;
+	}
+.investigador div{
+	width: 300px;
+	height: 250px;
+	}
+.investigador div:hover{
+	opacity: 0.5;
+    filter: alpha(opacity=40);  /*For IE8 and earlier */
+}
+.inves-1{ 
+	background: url(../investigadores/fotos/alex.jpg); 
+	background-size: cover;
+}
+.inves-2{ 
+	background: url(../investigadores/fotos/STEPHANY.jpg);
+	background-size: cover;
+}
+.inves-3{ 
+	background: url(../investigadores/fotos/luis.jpg);
+	background-size: cover;
+}
+.inves-4{ 
+	background: url(../investigadores/fotos/svita.jpg);
+	background-size: cover;
+}
+.inves-5{ 
+	background: url(../investigadores/fotos/marco.jpg); 
+	background-size: cover;
+}
+.inves-6{ 
+	background: url(../investigadores/fotos/mariori.jpg);
+	background-size: cover;
+}
+.inves-7{ 
+	background: url(../investigadores/fotos/mayel.jpg);
+	background-size: cover;
+}
+.inves-8{ 
+	background: url(../investigadores/fotos/huver.jpg); 
+	background-size: cover;
+}
+.investigador li{
+	list-style: none;
+	display: inline-block;
+	margin: 15px;
+	margin-bottom: 0px;
+	position: relative;
+	vertical-align: top;
+}
+.investigador p{
+	width:300px;
+	font-size: 20px;
+	}
+.investigador h4{
+	width:300px;
+	font-size: 25px;
+	}
+.conoceme{
+	background: #DFB636;
+	width: 40%;
+	height: 40px;
+	color: white;
+	border:#006633;
+	border-radius: 7px;
+	text-align: center;
+	}
