@@ -1,0 +1,18 @@
+/*Comienza el menu */
+	/*.menu{padding-top: 50px;}*/
+	.menu li{
+		padding: auto 0;
+		border-right:2px solid #4D4D4D;}
+
+	.menu a { color: #4D4D4D;
+		padding:10px 15px;
+		font-size: 20px;
+		margin: 0px; }
+
+	.menu li:last-child{ border-right:none;}
+	.menu li:last-child{border-right:none;}
+
+	.menu a:hover{	font-size: 28px;
+		font-weight: bold;
+		border: 3px solid #5E8039;}
+/*termina el menu*/
