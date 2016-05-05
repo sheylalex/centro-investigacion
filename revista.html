@@ -1,41 +1,87 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<title>Nuestros Actividades Academicas</title>
 	<meta charset="UTF-8">
-	<title>centro de investigacion</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="/css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/grid-system.css">
-    <link rel="stylesheet" type="text/css" href="css/utilities.css">
-    <link rel="stylesheet" type="text/css" href="css/general.css">
-    <link rel="stylesheet" type="text/css" href="css/conocemos.css">
-    <link rel="stylesheet" type="text/css" href="comun-investigadores.css">
+	<link rel="stylesheet" type="text/css" href="css/revista.css">
+	<link rel="stylesheet" type="text/css" href="css/general.css">
+	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+	<link href="font-awesome/css/font-awesome.css" type="text/css" rel="stylesheet"/>
 </head>
+
 <body>
+
 <header class="container-fluid menu">  <!-- menu -->
-	<div class="row">
-		<div class="col-2 text-center">
+		<div class="row">
+			<div class="col-2 text-center">
 				<!-- imagen- logo-->
 				<img class="logo" src="img/logo.jpg" alt="logo">
-		</div>
-		<div class="col-2 nombre">
+			</div>
+			<div class="col-2 nombre">
 				<p class="pd-0">Centro de Investigacion<br>Psicologica<br>Historica Cultural</p>
+			</div>
+			<div class="col-8">
+				<nav>
+    				<ul>
+      					<li><a href="conocenos.html">Conócenos</a></li>
+						<li><a href="nuestro-trabajo/nuestros-trabajos.html">Nuestros Trabajos</a></li>
+						<li><a href="actividades-academicas/actividades-academicas.html">Actividades Academicas</a></li>
+						<li><a href="revista.html">Revista</a></li>
+						<li><a href="https://psicologiahc.wordpress.com/">Blogs</a></li>
+						<li><a href="contacto.html">Contactanos</a></li>
+    				</ul>
+				</nav>
+			</div>
 		</div>
-		<div class="col-8">
-			<nav>
-    			<ul>
-      				<li><a href="">Conócenos</a></li>
-					<li><a href="">Nuestros Trabajos</a></li>
-					<li><a href="">Actividades Academicas</a></li>
-					<li><a href="">Revista</a></li>
-					<li><a href="">Blogs</a></li>
-					<li><a href="">Contactanos</a></li>
-    			</ul>
-			</nav>
-		</div>
-	</div>
 </header>
+
+<section class="rev">
+	<div class="row contenido-revista">
+		<div class="seccion-revista">
+			<h1>Revista EPSCS</h1>
+			<p>Invitamos a estudiantes y profesionales investigadores en Ciencias Sociales a presentar sus propuestas para la publicación del primer número de la “Revista de Epistemología, Psicología y Ciencias Sociales”de publicación anual, que se editará a partir de este año, producida por el Centro de Investigación Psicológica Histórico – Cultural (CIPS-HC) de la Escuela Profesional de Psicología de la Universidad Nacional de San Agustín (UNSA) de Arequipa, Perú; abierta a la comunidad académica nacional e internacional. Tenemos como finalidad, divulgar artículos originales e inéditos, derivados de la investigación y la reflexión teórica que propongan alternativas a los paradigmas hegemónicos.</p>
+		</div>
+		<div class="seccion-revista">
+			<img src="img/revista.jpg" alt="Portada de revista">
+		</div>
+		<div class="seccion-revista">
+			<h1>Suscribete para no perder nada</h1>
+			<p>Apuntate para recivir las ultimas noticias y ofertas.</p>
+			
+			<div class="row contacto"><!--añadir imagen de fondo en css-->
+		
+			<div class="formulario">
+			
+				<!--anadir lista de contactoque contenga al boton enviar-->
+				<form  action="index.html" method="get">
+			
+					<p>
+						<label><i class="fa fa-user i-nombre" aria-hidden="true"></i></label>
+						<input type="text" id="name"  name="nombre" placeholder="         Nombre" size="34" required>
+					</p>
+				    <p>
+						<label for="mail"></label>
+						<span class="fa fa-envelope i-mail"></span>
+						<input type="email" id="mail" name="email" placeholder="         Email" size="34" required>
+					</p>
+				
+				    <p>
+						<label for="msg"></label>
+						<span class="fa fa-pencil i-sms"></span>
+						<textarea name="mensaje" id="msg" placeholder="     Mensaje" cols="36" rows="6" required></textarea>
+					</p>
+					<button class="boton3 azulino" type="submit">ENVIAR</button>
+				</form>
+				
+			</div>
+
+	</div><!--final de contacto-->
+		</div>
+
+		
+	</div>
+
+</section>
 
 </body>
 </html>
