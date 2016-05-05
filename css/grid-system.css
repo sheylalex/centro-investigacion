@@ -3,7 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  outline: 1px solid rgba(255,0,0,0.4);/*rbga(255,0,0,0.4);*/
+  /*outline: 1px solid rgba(255,0,0,0.4);/*rbga(255,0,0,0.4);*/*/
  }
 
 .text-center {
@@ -21,7 +21,7 @@
 	padding-left: 0px; 
 	padding-right: 0px;
 	margin: 0px auto;
-	position: relative;
+	position: relative; 
 }
 
 .container-fluid {
@@ -30,10 +30,7 @@
 
 .row {
 	width: 100%;
-	/*margin-left: -14px;*/
-	/*margin-right: -14px;*/
 }
-
 .row:before, .row:after{
   content: " ";
   display: table;

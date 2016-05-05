@@ -1,7 +1,27 @@
+*{outline:1px solid rgba(255,0,0,0.4);}
+/*quienes somos*/
+.somos{
+	background: url(../img/fondo-1.jpg);
+	background-size: cover;
+	width: 99%;
+}
+.somos h2{
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+.somos h3{
+	text-align: center;
+}
+.somos p{
+	padding: 20px 150px 20px 150px;
+	text-align: justify;
+}
+
 /*seccion investigadores*/
 .h-1{
-	font-size: 50px;
-	padding-top: 3%;
+	font-size: 30px;
+	padding-top: 2%;
 }
 .investigador{
 	display: inline-block;

@@ -17,7 +17,7 @@
 }
 
 /* Shortcuts nuestros*/
-.text-peq-gris{ font-family: OpenSans-Ligth; font-size: 13px; }
+.text{ font-family: OpenSans-Ligth;}
 .mg-tyb-5{ margin: 5% auto; }
 .pt-3{padding-top: 3%;}
 .pb-3{padding-bottom: 3%;}
@@ -47,6 +47,9 @@
 }
 .pd-5 {
 	padding: 5%;
+}
+.pb-3{
+	padding-bottom: 3%;
 }
 .pd-5-10{
 	padding: 5% 10%;

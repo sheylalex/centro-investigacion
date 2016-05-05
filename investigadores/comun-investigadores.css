@@ -1,18 +1,73 @@
-.foto-personal img{
-	width: 100%;
-	height: 300px;
+
+.borde{
+	border: 2px solid #345E98;
+	padding: 20px;
+}
+.foto-stefany{
+	background: url(fotos/stephany.jpg);
+	background-size:cover; 
+	height: 265px;
+}
+.foto-alex{
+	background: url(fotos/alex.jpg);
+	background-size:cover; 
+	height: 250px;
+}
+.foto-luis{
+	background: url(fotos/luis.jpg);
+	background-size:cover; 
+	height: 265px;
+}
+.foto-svieta{
+	background: url(fotos/svita.jpg);
+	background-size:cover; 
+	height: 250px;
+	background-position: 0px -25px;
+}
+.foto-mariori{
+	background: url(fotos/mariori.jpg);
+	background-size:cover; 
+	height: 230px;
+}
+.foto-mayel{
+	background: url(fotos/mayel.jpg);
+	background-size:cover; 
+	height: 265px;
+}
+.foto-marco{
+	background: url(fotos/marco.jpg);
+	background-size:cover; 
+	height: 260px;
+}
+.foto-huver{
+	background: url(fotos/huver.jpg);
+	background-size:cover; 
+	height: 260px;
+	background-position: 0px -80px;
+}
+.cv-personal{
+	padding-left: 30px;
 }
 .cv-personal p{
 	background: #BBCADD;
+	padding: 30px;
+	text-align: justify;
+
 }
 .cv-personal h3{
 	background: #336192;
 	padding: 10px;
+	padding-left: 20px;
 	color: white;
 }
-.fondo-cv img{
-	/*background: url(../img/fondo-cv2.jpg);*/
-	/*background-size: cover;*/
-	height: 200px;
-	width: 100%;
+.fondo-cv{
+	background: url(../img/fondo-cv3.jpg);
+	background-size: cover;
+	height: auto;
+	width: 99%;
+}
+.frase{
+	text-align: center;	
+	font-size: 25px;
+	padding: 50px 150px 20px 150px;
 }
