@@ -3,8 +3,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /*outline: 1px solid rgba(255,0,0,0.4);/*rbga(255,0,0,0.4);*/*/
- }
+  }
 
 .text-center {
 	text-align: center;
@@ -17,17 +16,15 @@
 /* Grid system */
 
 .container {
-	width: 968px;
+	width: 1200px;
 	padding-left: 0px; 
 	padding-right: 0px;
-	margin: 0px auto;
+	margin: 0px 4em;
 	position: relative; 
 }
-
 .container-fluid {
 	width: 100%;
-}
-
+} 
 .row {
 	width: 100%;
 }
