@@ -1,36 +1,50 @@
 *{outline:1px solid rgba(255,0,0,0.4);}
 /*quienes somos*/
-.somos{
-	background: url(../img/fondo-1.jpg);
-	background-size: cover;
+/*.fondo-somos{
 	width: 99%;
+	height: auto;
+	border: 2px solid #2F9CBD;
+	border-radius: 1%;
+	padding:20px;
+	margin-bottom: 30px;
+}*/
+.quienes-somos{
+	padding: 3% 5% 3% 5%;
+	text-align: justify;	
 }
-.somos h2{
-	padding: 10px;
-	text-align: center;
-	color: white;
+.quienes-somos h2{
+	border: 3px solid #6A8BAC ;	
 }
-.somos h3{
-	text-align: center;
+.mision-vision{
+	padding: 4% 5% 4% 5%;
 }
-.somos p{
-	padding: 20px 150px 20px 150px;
-	text-align: justify;
+.mision-vision h3{
+	border: 3px solid #6A8BAC ;
+}
+.mision-vision p{
+	padding: 2% 10% 2% 10%;
+
 }
 
 /*seccion investigadores*/
+
+.fondo-investigador{
+	padding-left: 150px;
+	padding-right: 150px;
+}
 .h-1{
 	font-size: 30px;
 	padding-top: 2%;
+	color: #366198;
 }
 .investigador{
 	display: inline-block;
-	padding-top: 5%;
+	padding-top: 2%;
 	text-align: center;
 	}
 .investigador div{
-	width: 300px;
-	height: 250px;
+	width: 200px;
+	height: 150px;
 	}
 .investigador div:hover{
 	opacity: 0.5;
@@ -39,18 +53,22 @@
 .inves-1{ 
 	background: url(../investigadores/fotos/alex.jpg); 
 	background-size: cover;
+	border-radius: 100px 100px 100px 0px;
 }
 .inves-2{ 
 	background: url(../investigadores/fotos/STEPHANY.jpg);
 	background-size: cover;
+	border-radius: 100px 100px 100px 0px;
 }
 .inves-3{ 
 	background: url(../investigadores/fotos/luis.jpg);
 	background-size: cover;
+	border-radius: 100px 100px 100px 0px;
 }
 .inves-4{ 
 	background: url(../investigadores/fotos/svita.jpg);
 	background-size: cover;
+	border-radius: 100px 100px 100px 0px;
 }
 .inves-5{ 
 	background: url(../investigadores/fotos/marco.jpg); 
@@ -59,14 +77,17 @@
 .inves-6{ 
 	background: url(../investigadores/fotos/mariori.jpg);
 	background-size: cover;
+	border-radius: 100px 100px 100px 0px;
 }
 .inves-7{ 
 	background: url(../investigadores/fotos/mayel.jpg);
 	background-size: cover;
+	border-radius: 100px 100px 100px 0px;
 }
 .inves-8{ 
 	background: url(../investigadores/fotos/huver.jpg); 
 	background-size: cover;
+	border-radius: 100px 100px 100px 0px;
 }
 .investigador li{
 	list-style: none;
@@ -76,17 +97,18 @@
 	position: relative;
 	vertical-align: top;
 }
-.investigador p{
-	width:300px;
+/*.investigador p{
+	width:200px;
 	font-size: 20px;
-	}
+	}*/
 .investigador h4{
-	width:300px;
-	font-size: 25px;
-	}
+	width: 200px;
+	font-size: 20px;
+	text-align: center;
+	padding:4% 2%}
 .conoceme{
-	background: #DFB636;
-	width: 40%;
+	background: #6A8BAC;
+	width: 100%;
 	height: 40px;
 	color: white;
 	border:#006633;

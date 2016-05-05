@@ -29,7 +29,11 @@
 .f-right{ float: right; }
 .mg-3{ margin: 3%; }
 
-
+.justificado{
+	text-align: justify;
+}
+.celeste{background: #C4D1E2 }
+.azul{background: #376390}
 /* Shortcuts */
 
 
@@ -48,6 +52,12 @@
 .pd-5 {
 	padding: 5%;
 }
+.pd-1{
+	padding: 1%;
+}
+.pd-2{
+	padding: 2%;
+}
 .pb-3{
 	padding-bottom: 3%;
 }
@@ -56,6 +66,12 @@
 }
 .mg-0{
 	margin: 0;
+}
+.mg-l{
+	margin-left: 50px;
+}
+.mg-r{
+	margin-right: 50px;
 }
 .w-100{
 	width: 100%;
