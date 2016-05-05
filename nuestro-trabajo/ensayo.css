@@ -1,0 +1,13 @@
+.contenido{margin-top: 150px; }
+.contenedor-ensayo{width: 80%; margin: auto; text-align: center; }
+.l-sin-estilo{list-style:  none; padding: 0; margin: 0; color: #fff;}
+.l-sin-estilo li{color: #fff;}
+.sub-menu{ padding: .5em; margin: .8em 0;   display: inline-block; color: #fff;   font-weight: bold;}
+.sub-menu a{padding: .5em 1.5em; border: 1px solid #E0B049; border-radius: 6px;  text-decoration: none; color: #111;}
+.sub-menu a:hover{background: #E0B049; color: #fff; }
+.nombre-ens{padding: 30px;}
+.img-ens img{width: 400px; padding: 15px;}
+.contenedor-ensayo p{font-size: 14px; text-align: justify;}
+.contenedor-ensayo ul{text-align: left; font-size: 14px;}
+.contenedor-ensayo a{text-decoration: none; color: #111; font-weight: bold; }
+.video{padding: 30px; position: 15px;}
