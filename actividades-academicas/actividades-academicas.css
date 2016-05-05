@@ -1,19 +1,19 @@
-.contenido{margin-top: 150px; }
+.contenido{padding-top: 150px; }
 .actividades{width: 80%; margin: auto; text-align: center; }
 .l-sin-estilo{text-decoration: none; padding: 0; margin: 0; color: #fff;}
 .l-sin-estilo li{color: #fff;}
 .sub-menu{ padding: .5em; margin: .8em 0;   display: inline-block; color: #fff;   font-weight: bold;}
 .sub-menu a{padding: .5em 1.5em; border: 1px solid #E0B049; border-radius: 6px;  color: #111;}
 .sub-menu a:hover{background: #E0B049; color: #fff; }
-.titulo{text-align: center; width: 100%; background: #336192; color: #fff; padding: 10px 0; margin: 2px auto 6px; border-radius: 3px;}
-.actividad{vertical-align: top;  margin: 0 auto; width: 300px;  display: inline-block; margin: 1px 14px 0; text-align: justify;  padding: 5px; }
+.titulo{text-align: center; width: 80%; background: #B8C7DA; color: #fff; padding: 10px 0; margin: 5px auto 10px; border-radius: 3px;}
+.actividad{vertical-align: top;  margin: 0 auto; width: 260px;  display: inline-block; margin: 1px 7px 0; text-align: justify;  padding: 5px; }
 
-.nombre-actividad{font-size: 13px; height: 30px; background:  #E0B049; border-radius: 5px; padding: 5px; text-align: center; color: #fff;}
-.cuerpo-actividad{font-size: 10px;height: 70px; border: 2px solid #E0B049; padding: 4px; border-radius: 3px;}
+.nombre-actividad{font-size: 13px; height: 40px; background:  #E0B049; border-radius: 5px; padding: 5px; text-align: center; color: #fff;}
+.cuerpo-actividad{font-size: 10px;height: 80px; border: 2px solid #E0B049; padding: 4px; border-radius: 3px;}
 
 
-.slider{width: 300px; margin: auto; overflow: hidden; }
-.slider ul{padding: 0;display: flex; width: 1200px;animation: cambio 16s infinite alternate; animation-timing-function: linear;}
+.slider{width: 250px; margin: auto; overflow: hidden; }
+.slider ul{padding: 0;display: flex; width: 1000px;animation: cambio 16s infinite alternate; animation-timing-function: linear;}
 .slider li{width: 100%; list-style: none;}
 .slider img{width: 100%; height: 200px;}
 
