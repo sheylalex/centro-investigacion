@@ -5,54 +5,61 @@
 	<title>centro de investigacion</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="css/grid-system.css">
     <link rel="stylesheet" type="text/css" href="css/utilities.css">
     <link rel="stylesheet" type="text/css" href="css/general.css">
     <link rel="stylesheet" type="text/css" href="css/conocemos.css">
+    <link rel="stylesheet" type="text/css" href="comun-investigadores.css">
 </head>
 <body>
-	<header class="container">  <!-- menu -->
+	<header class="container-fluid menu">  <!-- menu -->
 		<div class="row">
-			<div class="col-2 pd-0">
+			<div class="col-2 text-center">
 				<!-- imagen- logo-->
-				<img class="w-100" src="img/logo.jpg" alt="logo">
+				<img class="logo" src="img/logo.jpg" alt="logo">
 			</div>
-			<div class="col-2 pd-0">
+			<div class="col-2 nombre">
 				<p class="pd-0">Centro de Investigacion<br>Psicologica<br>Historica Cultural</p>
 			</div>
-			<div class="col-8 menu pd-0">
-				 <!-- menu Rec: Hacer lista y centrar-->
-				 <ul class="text-center pt-5 ">
-				 	<li><a class="text-black" href="index.html#conocemos">Conocemos</a></li>
-				 	<li><a class="text-black" href="index.html#trabajo">Nuestro Trabajo</a></li>
-				 	<li><a class="text-black" href="index.html#academico">Trabajos Academicos</a></li>
-				 	<li><a class="text-black" href="index.html#revista">Revista</a></li>
-				 	<li><a class="text-black" href="index.html#blogs">Blogs</a></li>
-				 	<li><a class="text-black" href="index.html#siguenos">Contacto</a></li>
-				 </ul>
-			</div>	
-		</div> 
+			<div class="col-8">
+				<nav>
+    				<ul>
+      					<li><a href="">Conócenos</a></li>
+						<li><a href="">Nuestros Trabajos</a></li>
+						<li><a href="">Actividades Academicas</a></li>
+						<li><a href="">Revista</a></li>
+						<li><a href="">Blogs</a></li>
+						<li><a href="">Contactanos</a></li>
+    				</ul>
+				</nav>
+			</div>
+		</div>
 	</header>
 	<section>
-
-	<div class="container">
-		<h2>¿Quiénes Somos?</h2>
+	<div class="container-fluid foto-personal">
+		<div class="row somos">
+		<div class="row">	
+		<h2 >¿Quiénes Somos?</h2>
 		<br>
 		<p>Somos un colectivo conformado por estudiantes y egresados de la Escuela Profesional de Psicología, de la Universidad Nacional de San Agustín de Arequipa, Perú. Buscamos comprender la realidad en su complejidad a través de la pluralidad epistemológica y el diálogo de diversas  perspectivas como las teorías de la subjetividad, teorías de la complejidad, psicología crítica y otras perspectivas contrahegemómicas. Proponemos abrir espacios de diálogo y debate dentro de las ciencias sociales que permitan generar alternativas tanto en las prácticas como en la construcción de conocimientos frente a los modelos dominantes.</p>
+		</div>
+
 		<div class="row">
-		<div class="col-6">
+		<div class=" col-6 mision">
 			<h3>Mision</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, nemo, quas! Libero voluptates quis neque quam ratione ipsa labore earum qui provident amet, non harum illo asperiores architecto. Illo, reprehenderit.</p>
 		</div>
-		<div class="col-6">
+		<div class=" col-6 vision">
 			<h3>Vision</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, nemo, quas! Libero voluptates quis neque quam ratione ipsa labore earum qui provident amet, non harum illo asperiores architecto. Illo, reprehenderit.</p>
+		</div>
 		</div>
 		</div>
 	</div>
 </section>
 <section> <!-- -investigadores -->
+<div class="container-fluid">
  		<h1 class="text-center h-1">Equipo de Investigación</h1>
  		<!-- lista ( img + h4 + p) con inline-block -->
  		<ul class="investigador">
@@ -91,7 +98,7 @@
  			</li>
  			<li class="text-left">
  				<div class="inves-6"></div>
- 				<h4>Mariore Ruth<br>Quispe Carcasi </h4>
+ 				<h4>Ruth Mariore <br>Quispe Carcasi </h4>
  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem ducimus reiciendis at est non dolore, inventore quasi magnam, dolor officia? Nisi maiores voluptates perferendis voluptatibus. Minima provident distinctio, quibusdam aspernatur!</p>
  				<button class="conoceme">Conoceme</button>
  			</li>
@@ -108,6 +115,7 @@
  				<button class="conoceme">Conoceme</button>
  			</li>
  		</ul>
+ 	</div>
 </section>
  <footer></footer>
 
