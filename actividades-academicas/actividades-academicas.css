@@ -1,4 +1,5 @@
-*{outline:1px solid rgba(255,0,0,0.4);}
+.submenu-fijo{z-index: 1;position: fixed;
+}
 
 .actividades{
 	width: 100%; 
@@ -31,21 +32,22 @@
 	margin: 5px auto 10px;}
 .actividad{
 	vertical-align: top;  
-	margin: 0 auto; 
+	margin: auto; 
 	width: 260px;  
 	display: inline-block; 
-	margin: 1px 7px 0; 
+	margin: 5px 7px 0; 
 	text-align: justify;  
-	padding: 5px; }
+	padding: 10px; }
+
+.container{text-align: center;}
 
 .nombre-actividad{font-size: 13px; height: 40px; background:  #E0B049; border-radius: 5px; padding: 5px; text-align: center; color: #fff;}
-.cuerpo-actividad{font-size: 16px;height: auto; border: 2px solid #E0B049; padding: 4px; border-radius: 3px;}
-
+.cuerpo-actividad{font-size: 16px;height: 180px; border: 2px solid #E0B049; padding: 4px; border-radius: 3px;}
 
 .slider{width: 250px; margin: auto; overflow: hidden; }
 .slider ul{padding: 0;display: flex; width: 1000px;animation: cambio 16s infinite alternate; animation-timing-function: linear;}
 .slider li{width: 100%; list-style: none;}
-.slider img{width: 100%; height: 200px;}
+.slider img{width: 96%; height: 200px;}
 
 @keyframes cambio { 
 	0% {margin-left: 0;}

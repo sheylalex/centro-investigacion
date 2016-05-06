@@ -1,10 +1,10 @@
  .contenedor{ margin: auto; padding-top: 150px; width: 95%; text-align: center;}
 
-.psicologo{vertical-align: top;  margin: 0 auto; width: 180px;  display: inline-block; text-align: justify;  padding: 5px; }
-.slider-index{width: 186px; margin: auto; overflow: hidden; margin-bottom: -10px; }
+.psicologo{vertical-align: top;  margin: 0 auto; width: 180px;  display: inline-block; text-align: justify;  padding: 0px; }
+.slider-index{width: 186px; margin: auto; overflow: hidden; margin-bottom: -6px; }
 .slider-index ul{padding: 0;display: flex; width: 930px;animation: cambio 10s infinite alternate; animation-timing-function: linear;}
 .slider-index li{width: 100%; list-style: none;}
-.slider-index img{width: 100%; height: 260px; -webkit-filter: sepia(1); filter: sepia(1); opacity: .5;}
+.slider-index img{width: 100%; height: 255px; -webkit-filter: sepia(1); filter: sepia(1); opacity: .8;}
 .slider-index ul:first-of-type{margin-left: 50px;}
 
 @keyframes cambio { 
@@ -30,3 +30,7 @@
  .reverso ul{animation: cambio 8s infinite; animation-direction: alternate-reverse;}
  .reverso ul{animation: cambio 8s infinite; animation-direction: alternate-reverse;}
  /*.slider-index img{opacity: 0.5;}*/
+
+.pie{border-top:2px solid #345E98; padding: 5px;  }
+.pie img {width: 60px; }
+.pie p{font-size: 12px; padding: 8px 4px;}
