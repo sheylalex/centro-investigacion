@@ -5,11 +5,11 @@
 .sub-menu{ padding: .5em; margin: .8em 0;   display: inline-block; color: #fff;   font-weight: bold;}
 .sub-menu a{padding: .5em 1.5em; border: 1px solid #E0B049; border-radius: 6px;  text-decoration: none; color: #111;}
 .sub-menu a:hover{background: #E0B049; color: #fff; }
-.nombre-ens{padding: 30px;}
+.nombre-ens{padding: 0px;color: #063561}
 .img-ens img{width: 400px; padding: 15px;}
-.contenedor-ensayo{width: 80%; margin: auto;}
-.contenedor-ensayo p{ width: 80%; margin:auto; line-height: 1.5em; font-size: 14px; text-align: justify;}
-.contenedor-ensayo ul{ width: 80%;margin:auto;line-height: 1.5em; text-align: left; font-size: 14px;}
+.contenedor-ensayo{width: 100%; margin: auto;padding: 50px;}
+.contenedor-ensayo p{ width: 100%; margin:auto; line-height: 1.5em; font-size: 15px; text-align: justify; font-family: arial}
+.contenedor-ensayo ul{ width: 100%;margin:auto;line-height: 1.5em; text-align: left; font-size: 15px;font-family: arial;}
 
 .contenedor-ensayo a{text-decoration: none; color: #111; font-weight: bold; }
 .video{padding: 30px; position: 15px;}
