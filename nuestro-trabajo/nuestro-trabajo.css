@@ -5,7 +5,7 @@
 .sub-menu{ padding: .5em; margin: .8em 0;   display: inline-block; color: #fff;   font-weight: bold;}
 .sub-menu a{padding: .5em 1.5em; border: 1px solid #E0B049; border-radius: 6px;  text-decoration: none; color: #111;}
 .sub-menu a:hover{background: #E0B049; color: #fff; }
-.titulo{text-align: center; width: 80%; background: #B8C7DA; color: #fff; padding: 10px 0; margin: 2px auto 6px; border-radius: 3px;}
+.titulo{text-align: center; width: 100%;color:#063561; padding: 15px 0; margin: 2px auto 6px;}
 
 .ensayo {margin: 13px 0; }
 .img-ensayo { display: inline-block; padding: 5px; width: 180px;}
