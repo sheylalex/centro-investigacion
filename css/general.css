@@ -1,5 +1,5 @@
 /*Comienza el menu */
-*{outline:1px solid rgba(255,0,0,0.4);}
+/**{outline:1px solid rgba(255,0,0,0.4);}*/
 
 a{text-decoration: none;}
 li{list-style: none;}
