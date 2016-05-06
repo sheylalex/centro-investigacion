@@ -1,4 +1,17 @@
-*{outline:1px solid rgba(255,0,0,0.4);}
+
+
+/*quienes somos*/
+/*.fondo-somos{
+	width: 99%;
+	height: auto;
+	border: 2px solid #2F9CBD;
+	border-radius: 1%;
+	padding:20px;
+	margin-bottom: 30px;
+}*/
+
+
+
 .quienes-somos{
 	text-align: justify;	
 }
