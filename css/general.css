@@ -1,5 +1,5 @@
 /*Comienza el menu */
-*{outline:1px solid rgba(255,0,0,0.4);}
+/**{outline:1px solid rgba(255,0,0,0.4);}*/
 
 a{text-decoration: none;}
 li{list-style: none;}
@@ -64,3 +64,5 @@ nav li:last-child a {
 }
 /*termina el menu*/
 
+.fondo-pie{border-top:2px solid #345E98; padding: 5px;}
+.fondo-pie img{width: 40px; }
