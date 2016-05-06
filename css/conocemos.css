@@ -1,4 +1,5 @@
 
+
 /*quienes somos*/
 /*.fondo-somos{
 	width: 99%;
@@ -8,34 +9,24 @@
 	padding:20px;
 	margin-bottom: 30px;
 }*/
+
+
+
 .quienes-somos{
-	padding: 3% 5% 3% 5%;
 	text-align: justify;	
 }
-.quienes-somos h2{
-	border: 3px solid #6A8BAC ;	
-}
+
 .mision-vision{
-	padding: 4% 5% 4% 5%;
-}
-.mision-vision h3{
-	border: 3px solid #6A8BAC ;
+	padding: 2% 0% 2% 0%;
 }
 .mision-vision p{
 	padding: 2% 10% 2% 10%;
-
 }
-
 /*seccion investigadores*/
-
-.fondo-investigador{
-	padding-left: 150px;
-	padding-right: 150px;
-}
 .h-1{
 	font-size: 30px;
 	padding-top: 2%;
-	color: #366198;
+	color: #2D5181;
 }
 .investigador{
 	display: inline-block;
@@ -43,8 +34,8 @@
 	text-align: center;
 	}
 .investigador div{
-	width: 200px;
-	height: 150px;
+	width: 250px;
+	height: 200px;
 	}
 .investigador div:hover{
 	opacity: 0.5;
@@ -69,6 +60,7 @@
 	background: url(../investigadores/fotos/svita.jpg);
 	background-size: cover;
 	border-radius: 100px 100px 100px 0px;
+	background-position: 0px -25px;
 }
 .inves-5{ 
 	background: url(../investigadores/fotos/marco.jpg); 
@@ -88,24 +80,22 @@
 	background: url(../investigadores/fotos/huver.jpg); 
 	background-size: cover;
 	border-radius: 100px 100px 100px 0px;
+	background-position: 0px -80px;
 }
 .investigador li{
 	list-style: none;
 	display: inline-block;
-	margin: 15px;
-	margin-bottom: 0px;
+	margin: 20px;
+	margin-bottom: 40px;
 	position: relative;
 	vertical-align: top;
 }
-/*.investigador p{
-	width:200px;
-	font-size: 20px;
-	}*/
 .investigador h4{
-	width: 200px;
-	font-size: 20px;
+	width: 250px;
+	font-size: 18px;
 	text-align: center;
-	padding:4% 2%}
+	padding:4% 2%;
+	color: #2D5181}
 .conoceme{
 	background: #6A8BAC;
 	width: 100%;
@@ -115,3 +105,7 @@
 	border-radius: 7px;
 	text-align: center;
 	}
+/*footer*/
+.fondo-pie img{
+	width: 100%;
+}
