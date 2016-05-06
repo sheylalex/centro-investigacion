@@ -1,12 +1,12 @@
-*{outline:1px solid rgba(255,0,0,0.4);}
+
 
 .rev{background: linear-gradient(to right, #3C2165 , #6C5C84, #2A154A);}
-.seccion-revista{  width: 300px; height: 450px;display: inline-block;}
-.contenido-revista{width: 90%; padding-top: 150px; color: #fff; }
+.seccion-revista{  width: 300px; height: 550px;display: inline-block;}
+.contenido-revista{width: 90%;  color: #fff; }
 .seccion-revista {vertical-align: top; text-align: center;}
-.seccion-revista h1{padding: 20px;  text-align: center; }
-.seccion-revista p{line-height: 1.5em; padding: 20px; text-align: justify; font-size: 13px;}
-.seccion-revista img {width: 250px; padding-top: 50px;}
+.seccion-revista h1{padding: 50px 20px 20px;  text-align: center; }
+.seccion-revista p{line-height: 1.5em; padding: 50px 20px 20px; text-align: justify; font-size: 13px;}
+.seccion-revista img {width: 250px; padding-top: 100px;}
 
 .contacto{position: relative; text-align: left;width: 100%; }
 .contacto img{width: 460px; float: right;}
@@ -19,3 +19,5 @@
 .i-nombre{position: absolute; left: 16px; top: 5px; color: #BDBDBD;}
 .i-mail{position: absolute; left: 16px; top: 28px; color: #BDBDBD;}
 .i-sms{position: absolute; left: 16px; top: 50px; color: #BDBDBD;}
+.boton{padding: 10px 40px; text-decoration: none; color:#fff;}
+.boton a{margin-top: 80px;}
