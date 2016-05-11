@@ -5,7 +5,7 @@
 .contenido-revista{width: 90%;  color: #fff; }
 .seccion-revista {vertical-align: top; text-align: center;}
 .seccion-revista h1{padding: 50px 20px 20px;  text-align: center; }
-.seccion-revista p{line-height: 1.5em; padding: 50px 20px 20px; text-align: justify; font-size: 13px;}
+.seccion-revista p{line-height: 1.5em;font-family: arial; padding: 50px 20px 20px; text-align: justify; font-size: 13px;}
 .seccion-revista img {width: 250px; padding-top: 100px;}
 
 .contacto{position: relative; text-align: left;width: 100%; }
